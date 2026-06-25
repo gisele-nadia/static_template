@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    height:calc(100vh, 200px);
+    height: 100vh;
+    font-weight: bold;
+    font-size: 2rem;
+    gap: 20px;    
+}
+
+@media (max-width: 1024px){
+    .container{
+        flex-direction: column-reverse;
+    }
+}
+
+.aside{
+     flex: 1;
+    background-color: blue;
+
+
+}
+.aside__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main{
+    flex: 2;
+    background-color: orangered;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+@media(max-width:600px){
+    .main{
+        font-size: 1.5rem;
+    }
+    .aside__container{
+        font-size: 1.5rem;
+
+    }
+}

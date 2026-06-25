@@ -1,0 +1,27 @@
+header {
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu__header ul{
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+
+
+
